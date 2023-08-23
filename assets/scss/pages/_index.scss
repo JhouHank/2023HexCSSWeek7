@@ -1,0 +1,135 @@
+.main{
+  .sector{
+    padding: 296px 0;
+  }
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
+.professional{
+  h4{
+    padding: 24px 0 8px 0;
+  }
+  img{
+    width: 84px;
+  }
+  ul{
+    gap: 24px;
+  }
+  .pro-card{
+    width: 24%;
+  }
+}
+.classic{
+  ul{
+    gap: 24px;
+  }
+  .cla-card{
+    width: 30%;
+  }
+}
+.design{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+}
+.suggest{
+  ul{
+    gap: 24px;
+  }
+  .sug-card{
+    max-width: 100%;
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+  }
+  .article{
+    padding: 16px;
+  }
+}
+.contact{
+  max-width: 49%;
+  form{
+    margin-top: 24px;
+  }
+  .btn{
+    width: 65%;
+  }
+}
+@media(max-width: 992px){
+  .professional{
+    .pro-card{
+      width: 48%;
+      margin: 0 auto;
+    }   
+  }
+  .classic{
+    .cla-card{
+      width: 58%;
+      margin: 0 auto;
+    }
+  }
+  .design{
+    .deg-card{
+      width: 98%;
+      margin: 0 auto;
+    }
+  }
+  .suggest{
+    .sug-card{
+      width: 45%;
+      margin: 0 auto;
+    }
+  }
+  .contact{
+    max-width: 80%;
+    .btn{
+      max-width: 100%;
+    }
+  }
+}
+@media(max-width: 767px){
+  .sector{
+    p{
+      font-size: 16px;
+    }
+    h2{
+      font-size: 24px;
+    }
+    button{
+      font-size: 20px;
+    }
+  }
+  .professional{
+    .pro-card{
+      width: 98%;
+      margin: 0 auto;
+    }   
+  }
+  .classic{
+    .cla-card{
+      width: 98%;
+      margin: 0 auto;
+    }
+  }
+  .design{
+    .deg-card{
+      width: 98%;
+      margin: 0 auto;
+    }
+  }
+  .suggest{
+    .sug-card{
+      width: 98%;
+      margin: 0 auto;
+    }
+  }
+  .contact{
+    max-width: 98%;
+    .btn{
+      max-width: 100%;
+    }
+  }
+}
